@@ -1,3 +1,5 @@
+import time
+start_time=time.time()
 list_a=[1,2,3,4]
 list_b=[4,5,6,7,8,17]
 result_list=[]
@@ -19,3 +21,7 @@ print(result_list)
 #Version 2 - Extend:
 result_list.extend(slice_of_list_a) # another option to add the slice list
 print(result_list)
+
+
+stop_time = time.time()
+print(f"Executed in {stop_time - start_time}")
