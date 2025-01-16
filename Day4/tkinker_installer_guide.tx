@@ -1,0 +1,6 @@
+#to install the module pyinstaller
+pip install pyinstaller
+
+#to create the actual application
+#to
+pyinstaller my_app.py --windowed
